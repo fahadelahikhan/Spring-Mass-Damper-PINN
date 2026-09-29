@@ -14,8 +14,8 @@ A physics-informed neural network (pure PyTorch) that solves m·x'' + c·x' + k�
 | Final physics residual loss | 8.5e-7 |
 | Final IC loss | 2.9e-12 |
 
-![validation](results/p1_validation.png)
-![phase](results/p1_phase.png)
+![validation](p1_validation.png)
+![phase](p1_phase.png)
 
 ## Note:
 1. **Trivial solution trap:** x(t)=0 satisfies the ODE, so the IC term must be strong enough (or the residual well scaled). Plain equal weighting collapsed to x≈0.
